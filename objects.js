@@ -49,27 +49,12 @@ console.log(`Hello! My name is ${me.firstName} and I live in ${me.state}`)
 */
 
 //CODE HERE
-// function carFactory(make, model, year){
-//   const car = {
-//     make: make,
-//     model: model,
-//     year: year
-//     }
-//     if(car.year > 2018){
-//       car.isNew = true;
-//     }else{
-//       car.isNew = false;
-//     }
-//   return car;
-//   }
  
-  
-// var final = car;
-// console.log(final)
+
 function carFactory(make, model, year){
   const car = {
-    make: "make",
-    model: "model",
+    make: make,
+    model: model,
     year: year,
     }
     if(year > 2018){
