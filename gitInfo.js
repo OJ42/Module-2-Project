@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+var gitDefinition = "Git is a program, Git is a development tool to manage source code. Git is primarily used to track changes in source code and enable multiple developers to work together on non linear development";
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+var gitHubDefinition = "Github is a website. Github is a web-based control platform for collaboration by software developers."
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,7 +34,10 @@
 */
 
 //CODE HERE
-
+const init = {
+    description: "Create a new version-controlled project. (initialize a local repository right here in this folder)",
+    code: "git init",
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +45,10 @@
 */
 
 //CODE HERE
-
+const clone = {
+    description: "Make a clone of a Github repository for your local machine (copy a repo from Github and put it on my machine)",
+    code: "git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY",
+}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,7 +56,10 @@
 */
 
 //CODE HERE
-
+const status = {
+    description: "Show tracked and untracked file paths that have differences between the working tree and index file.(tell me about this repo)",
+    code: "git status",
+}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +67,9 @@
 */
 
 //CODE HERE
-
+const add = {
+    description: "Update the index using the current content on the working tree to prepare the content staged for the next commit (add some files to be tracked)"
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +77,10 @@
 */
 
 //CODE HERE
-
+const commit = {
+    description: "Create a new commit with the current contents of the index and the given log message describing the changes.(create a snapshot of the files I’m tracking)",
+    code: "git commit",
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +89,7 @@
 */
 
 //CODE HERE
+const push = {
+    description: "put my local commits on Github",
+    code: "git push REPO_NAME",
+}
